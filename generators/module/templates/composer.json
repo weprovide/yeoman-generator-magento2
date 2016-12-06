@@ -1,0 +1,16 @@
+{
+    "name": "<%= vendorName.toLowerCase() %>/<%= moduleName.toLowerCase() %>",
+    "description": "",
+    "authors": [{
+      "email": "<%= email %>",
+      "name": "<%= name %>"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+          "<%= vendorName %>\\<%= moduleName %>\\": ""
+      },
+      "files": ["registration.php"]
+    }
+}

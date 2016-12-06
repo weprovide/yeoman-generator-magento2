@@ -1,0 +1,27 @@
+{
+  "name": "generator-magento2",
+  "version": "0.0.1",
+  "description": "Magento2 yeoman generator",
+  "main": "index.js",
+  "repository": "weprovide/generator-magento2",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "contributors": [
+    "Tim Neutkens",
+    "Sam Granger"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.1"
+  },
+  "devDependencies": {
+    "jest": "^17.0.3",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.6.0"
+  },
+  "scripts": {
+    "test": "node --harmony-async-await ./node_modules/.bin/jest"
+  }
+}
